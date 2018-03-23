@@ -20,12 +20,7 @@
 		{
 			"Name" : "GamepadUMGPlugin",
 			"Type" : "Runtime",
-			"LoadingPhase" : "PreDefault",
-			"WhitelistPlatforms" :
-			[
-				"Win64",
-				"Win32"
-			]
+			"LoadingPhase" : "PreDefault"
 		}
 	]
 }

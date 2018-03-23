@@ -1,0 +1,106 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "GamepadUMG (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMG Linux Debug Build",
+			"program": "/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Binaries/Linux/GamepadUMG-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMG (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMG Linux DebugGame Build",
+			"program": "/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Binaries/Linux/GamepadUMG-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMG (Development)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMG Linux Development Build",
+			"program": "/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Binaries/Linux/GamepadUMG",
+			"args": [
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMG (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMG Linux Shipping Build",
+			"program": "/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Binaries/Linux/GamepadUMG-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMG (Test)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMG Linux Test Build",
+			"program": "/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Binaries/Linux/GamepadUMG-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMGEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMGEditor Linux Debug Build",
+			"program": "/home/psychojau/Unreal4/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/GamepadUMG.uproject",
+				"-debug"
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMGEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMGEditor Linux DebugGame Build",
+			"program": "/home/psychojau/Unreal4/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/GamepadUMG.uproject",
+				"-debug"
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "GamepadUMGEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "GamepadUMGEditor Linux Development Build",
+			"program": "/home/psychojau/Unreal4/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/GamepadUMG.uproject"
+			],
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/psychojau/Unreal4/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/GamepadUMG.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/psychojau/Unreal4/UnrealEngine"
+		}
+	]
+}

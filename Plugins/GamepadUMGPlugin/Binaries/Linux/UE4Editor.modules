@@ -1,0 +1,7 @@
+{
+	"BuildId": "d71b7d9f-4a0f-40ae-8c3f-4b0671c5ca2a",
+	"Modules": 
+	{
+		"GamepadUMGPlugin": "libUE4Editor-GamepadUMGPlugin.so"
+	}
+}

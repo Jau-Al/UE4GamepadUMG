@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/.git": true,
+		"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/.vscode": true,
+		"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Content": true,
+		"/media/donnees/Dev-jeux-applis/Unreal4/Plugins/UE4GamepadUMG/UE4GamepadUMG/Intermediate": true
+	}
+}
