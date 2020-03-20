@@ -5,7 +5,8 @@ Thanks to Epic Developer Nick Darnell for the original code and Rama for the ori
 
 usage : 
 
-Open Plugins folder. Inside, there is GamepadUMGPlugin folder. Copy it into your engine Engine/Plugins/ folder.
+Open Plugins folder. Inside, there is GamepadUMGPlugin folder. Copy it into your engine Engine/Plugins/ folder or create a /Plugin folder inside your project and put it there.
+You can now enable or disable the virtual cursor from controller (plugin should be activated, else enable it in plugins menu) 
 
 The base folder here is for UE4.19 (built for Linux and Windows)
 
