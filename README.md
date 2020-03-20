@@ -9,3 +9,4 @@ Open Plugins folder. Inside, there is GamepadUMGPlugin folder. Copy it into your
 
 The base folder here is for UE4.19
 
+UE4.24 version : [here](https://mega.nz/#!uh1VhRaI!QzUb3WBLPlB5xmnl6j22uki8IArJj4U1TmD0Tx5BJnI)
