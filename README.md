@@ -5,4 +5,4 @@ Thanks to Epic Developer Nick Darnell for the original code and Rama for the ori
 
 use : 
 in Plugins/
-copy GamepadUMGPlugin folder into your engine Plugins/Markeplace/ folder
+copy GamepadUMGPlugin folder into your engine Engine/Plugins/ folder
