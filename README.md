@@ -5,6 +5,7 @@ Thanks to Epic Developer Nick Darnell for the original code and Rama for the ori
 
 usage : 
 
-in Plugins/
+Open Plugins folder. Inside, there is GamepadUMGPlugin folder. Copy it into your engine Engine/Plugins/ folder.
 
-copy the GamepadUMGPlugin folder into your engine Engine/Plugins/ folder
+The base folder here is for UE4.19
+
